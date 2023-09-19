@@ -5,17 +5,22 @@ This repository is a PyTorch implementation for instance_segmentation. The code 
 
 Usage
 
+
 Highlight:
 
 Fast multiprocessing training (nn.parallel.DistributedDataParallel) with official nn.SyncBatchNorm.
 Better reimplementation results with well designed code structures.
+
 Requirement:
 
 Hardware: 4 GPUs (better with >=11G GPU memory)
 Software: PyTorch>=1.6.0, Python3, tensorboardX,
+
+
 Clone the repository:
 
 git clone https://github.com/ldrunning/instance_segmentation
+
 
 Train:
 
